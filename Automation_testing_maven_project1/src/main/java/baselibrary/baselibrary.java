@@ -8,11 +8,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class baselibrary {
 	
-	@Test
+	@test
 	public void launchurl() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver= new ChromeDriver();
-		
+		System.out.println("hello");
 	}
 
 }
